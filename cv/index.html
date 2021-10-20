@@ -1,89 +1,196 @@
 
-Huili Tang
-Full stack developer
-Surrey, British Columbia, CA
-+1 672-515-1109
-huilitang1@gmail.com
-github.com/amytang1234
-Summary
-An experienced Web Developer with a master degree in computer science and a recent
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VisualCV</title>
+    <meta charset="utf-8">
 
-diploma degree in Web Development from Lighthouse Labs. Highly skilled in coding using
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, viewport-fit=cover">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon" href="/app/build/assets/images/favicon.8aedeeab10dd06774df15f4da0cb4b98.ico">
+    <link rel="canonical" href="https://www.visualcv.com/app/">
 
-Javascript, HTML, and NodeJS for developing web applications. Interested in new
 
-technology and problem-solving.
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WKRGZV');</script>
+    <!-- End Google Tag Manager -->
 
-Skills
-Front-end: HTML, CSS, JS
 
-Back-end: NodeJS, JSON, API, Postgres
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left); /* iOS 11.0 */
+        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); /* iOS 11.2 */
+      }
 
-Framework and Library: React, JQuery, Bootstrap, Axios, ExpressJS
+      #loading-overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        -webkit-transition: opacity 0.1s;
+        transition: opacity 0.1s;
+        text-align: center;
+        z-index: 1000;
+        opacity: 1;
+      }
 
-Version Control: Git, Github
+      #loading-logo {
+        max-width: 640px;
+        padding: 0 20px;
+      }
 
-APIs: CRUD, REST
+      #loading-logo-svg {
+        vertical-align: middle;
 
-Programming languages: C, C#, JAVA, Python, VB, JS, Ruby
+        height: 80px;
+        width: 89px;
+      }
 
-Education
-07/2021 10/2021
-Diploma
-Lighthouse labs , Vancouver, BC
-Web development
+      #loading-quote {
+        color: #222;
+        font-family: 'Avenir', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 24px 0;
+      }
 
-09/200406/2006
-Master Degree
-Fudan University, Shanghai, China
-Software Engineer
+      #loading-quote-author {
+        color: #999;
+        font-family: 'Avenir', sans-serif;
 
-09/199507/1999
-Bachelor Degree
-Harbin Institute of Technology, China
- Computer Science
+        margin: 0;
+      }
+    </style>
+  </head>
 
-Volunteering
-Community Volunteer Income Tax Program (CVITP)
-      Assistant     • Surrey     01/2019 - 03/2019    
+  <body>
 
-     Volunteered over 3 hours per week with an organization helping with income tax  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKRGZV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-     program
 
-Tutoring • Python    • South Surrey   02/2019 - 06/2019 
-      Gave Python lessons to kids
+    <div id="loading-overlay">
+      <div id="loading-logo">
+        <svg viewBox="0 0 189.8 170" id="loading-logo-svg">
+          <g fill="#3e94e4">
+            <path d="m23.1 46.3c-12.8 0-23.1-10.4-23.1-23.2 0-12.7 10.3-23.1 23.1-23.1h71.8c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.4 23.1-23.1 23.1h-71.8z"/>
+            <path d="m71.6 146.8c0-12.8 10.3-23.1 23.1-23.1s23.1 10.3 23.1 23.1-10.4 23.2-23.1 23.2-23.1-10.4-23.1-23.2z"/>
+            <path d="m130.7 61.9c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.3 23.1-23.1 23.1h-72.1c-12.8 0-23.1-10.3-23.1-23.1s10.4-23.1 23.1-23.1z"/>
+            <path d="m153.8 85c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.3-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.3 23.1 23.1z"/>
+            <path d="m81.8 85c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.3-23.1-23.1 10.4-23.1 23.1-23.1 23.1 10.3 23.1 23.1z"/>
+            <path d="m0 23.1c0-12.7 10.3-23.1 23.1-23.1s23.1 10.4 23.1 23.1c0 12.8-10.4 23.1-23.1 23.1-12.8.1-23.1-10.3-23.1-23.1z"/>
+            <path d="m94.9 46.3c-12.8 0-23.1-10.4-23.1-23.1 0-12.8 10.3-23.2 23.1-23.2h71.8c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.4 23.1-23.1 23.1h-71.8z"/>
+            <path d="m189.8 23.1c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.4-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.4 23.1 23.1z"/>
+            <path d="m118 23.1c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.4-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.4 23.1 23.1z"/>
+          </g>
+        </svg>
+        <p id="loading-quote"></p>
+        <p id="loading-quote-author"></p>
+      </div>
 
-Work experience
-07/202110/2021
-Student developer
-Lighthouse labs
-Successfully finished projects below,
+      <!--[if lte IE 11]>
+        <h2 class="text-center">
+          Looks like you are using an older browser,<br>
+          please update your browser to the latest version of Chrome, Safari, Firefox or Microsoft Edge.
+        </h2>
+      <![endif]-->
+    </div>
 
-TinyApp
-A full stack web app built with Node and Express that allows users to shorten long URLs.(EJS, ExpressJS).
+    <div id="modalRoot"></div>
+    <div id="app"></div>
 
-Tweeter
-A Single Page App (SPA) built with HTML, CSS, JS, jQuery and AJAX, ExpressJS.
+    <script>
+      (function(){
+        var quoteEl = document.getElementById('loading-quote')
+        var quoteAuthorEl = document.getElementById('loading-quote-author')
 
-QuizApp
-An app that lets you create quizzes and share them between friends. The creator of the quiz can view and share all the results at the end of the quiz. (NodeJS, Express -RESTful route, PostgreSQL for DBMSMS and git for version control)
+        var quotes = [
+          ['You look like a million bucks today.', 'VisualCV Team'],
+          ['Make yourself proud.', 'VisualCV Team'],
 
-Interview Scheduler
-A single page application (SPA), built using React, PostgreSQL database.The client application communicates with an API server over HTTP, using the JSON format
+          ['Choose courage over comfort.', 'Brene Brown'],
+          ['Sometimes the most important and bravest thing you can do is just show up.', 'Brene Brown'],
 
-Final group project- BudgetApp
-The easy to use budgeting app that can be used to create budgets, and manage your expenses with  Html ,CSS, ReactJS, Bootstrap, Axios, NodeJS, ExpressJS and PostgreSQL.
+          ['What would you do if you weren’t afraid?', 'Sheryl Sandberg'],
+          ['If you’re offered a seat on a rocket ship, don’t ask what seat. Just get on.', 'Sheryl Sandberg'],
+          ['Careers are a jungle gym, not a ladder.', 'Sheryl Sandberg'],
 
-09/200403/2008
-Software Engineer
-Shanghai Etong network
-Involved in design, development and test of company's website
-Using c#, .NET framework distributed system
-09/199912/2015
-Instructor
-Shanghai Normal university
-Taught the core courses of computer science such as Digital Circuit, Computer Organization, data structure, C programing, VB program, C#, etc.
-Instructed experiments of Digital Circuit, computer organization and programming in labs
-Supervised students about graduation projects
+          ['How you climb a mountain is more important than reaching the top.', 'Yvon Chouinard'],
+          ['If everything seems under control, you’re not going fast enough.', 'Mario Andretti'],
+          ['Dude, suckin’ at something is the first step to being sorta good at something.', 'Jake the adventure dog'],
+          ['Seize any opportunity, or anything that looks like opportunity. They are rare, much rarer than you think…', 'Nassim Nicholas Taleb'],
+          ['Passion is the result of action, not the cause of it.', 'Mark Manson'],
+          ['Today’s the youngest you’ll ever be. Live like it.', 'Mark Cuban'],
+          ['Decide who you are and be that person. The universe will get out of your way.', 'Will Smith'],
+          ['People often say motivation doesn’t last. Neither does bathing—that’s why we recommend it daily.', 'Zig Ziglar'],
+          ['Oh, get a job? Just get a job? Why don’t I strap on my job helmet and squeeze down into a job cannon and fire off into job land, where jobs grow on jobbies?!', 'Charlie Day'],
+          ['In the middle of every difficulty lies opportunity.', 'Albert Einstein'],
+          ['It’s not the mountain we conquer, but ourselves.', 'Edmund Hillary'],
+          ['You are never too old to set a new goal or dream a new dream.', 'CS Lewis'],
+          ['Life is not about finding yourself, it’s about creating yourself.', 'George Bernard Shaw']
+        ]
 
+        var quote = quotes[Math.floor(Math.random() * quotes.length)]
+
+        quoteEl.textContent = '“' + quote[0] + '”'
+        quoteAuthorEl.textContent = quote[1]
+      }());
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.7.0/tinymce.min.js" integrity="sha512-XaygRY58e7fVVWydN6jQsLpLMyf7qb4cKZjIi93WbKjT6+kG/x4H5Q73Tff69trL9K0YDPIswzWe6hkcyuOHlw==" crossorigin="anonymous"></script>
+    <script src="https://js.recurly.com/v4/recurly.js"></script>
+
+
+    <script src="/app/build/app.79f35cd43f9b71500ba2.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="/app/jquery.cv.js"></script>
+
+
+    <link rel="preload" as="style" href="/app/build/500.f5bde6262c26e6cef894adbb6cf8149b.css">
+
+    <link rel="preload" as="style" href="/app/build/600.7d45abfb0d1b2c1d46e456c8a55e98cf.css">
+
+    <link rel="preload" as="style" href="/app/build/700.5203e50d6636947c73a657f4080b88eb.css">
+
+    <link rel="preload" as="style" href="/app/build/variable.59eb5fb74a03af4f12f7f59afde4c332.css">
+
+    <link rel="preload" as="style" href="/app/build/300.026e3525ad12dc0a30249899476beca4.css">
+
+    <link rel="preload" as="style" href="/app/build/400.9adf7d4a9304c2bee8c395a69818f9ff.css">
+
+    <link rel="preload" as="style" href="/app/build/500.d88108f6b21e6193ea1de651db43aa90.css">
+
+    <link rel="preload" as="style" href="/app/build/600.a18e76381bf1d9825116421fd7d39af5.css">
+
+    <link rel="preload" as="style" href="/app/build/variable.c658884dc7e61edeb42902d0043ddb46.css">
+
+    <link rel="preload" as="style" href="/app/visualcv.css">
+
+    <link rel="preload" as="style" href="/app/build/Calendar.feb94488acdcaddae5593fcdf2bf3a86.css">
+
+    <link rel="preload" as="style" href="/app/build/DatePicker.03685c8cf2b4a4946a72519763f79e94.css">
+
+    <link rel="preload" as="style" href="/app/build/ReactToastify.4f556222cd9c8bd8adc708fa023ad68d.css">
+
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+  </body>
+</html>
